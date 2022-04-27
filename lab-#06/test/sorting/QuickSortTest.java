@@ -3,7 +3,6 @@ package sorting;
 import org.junit.Test;
 import java.util.Random;
 import static org.junit.Assert.*;
-import org.junit.*;
 
 public class QuickSortTest {
      
