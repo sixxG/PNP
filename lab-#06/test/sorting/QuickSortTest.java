@@ -10,18 +10,8 @@ public class QuickSortTest {
 
     @Test
     public void simpleTest() {
-        int[] sourceArr = {5, 7, 2, 6, 4};
-        int[] expectedArr = {2, 4, 5, 6, 7};
-
-        qSort.sort(sourceArr);
-        assertArrayEquals(expectedArr, sourceArr);
-    }
-
-    //хоть и в условии написано, шо значение от 0 до 1000, но на всякий случай
-    @Test
-    public void negativeTest() {
-        int[] sourceArr = {-5, -7, -2, -6, -4};
-        int[] expectedArr = {-7, -6, -5, -4, -2};
+        int[] sourceArr = {6, 12, 3, 5, 4};
+        int[] expectedArr = {3, 4, 5, 6, 12};
 
         qSort.sort(sourceArr);
         assertArrayEquals(expectedArr, sourceArr);

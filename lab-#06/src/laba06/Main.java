@@ -5,7 +5,6 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!"); // ¯\_(ツ)_/¯
         QuickSort one = new QuickSort();
         Random rnd = new Random();
         int[] arr = new int[10];
